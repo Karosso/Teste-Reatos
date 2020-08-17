@@ -1,0 +1,101 @@
+#team {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 100%;
+    min-width: 1350px;
+    height: 665px;
+    padding: 0 70px;
+}
+
+#team h1 {
+    font: 900 2.8rem Montserrat;
+    color: var(--color-font-secondary);
+    letter-spacing: 0.7px;
+    line-height: 40px;
+}
+
+.team-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-header p {
+    width: 80%;
+    margin-top: 30px;
+    font: 500 2.8rem Lato;
+    color: var(--color-font-secondary-light);
+    letter-spacing: 0.3125px;
+    line-height: 32px;
+}
+
+.team-header button {
+    width: 122px;
+    height: 48px;
+    background: var(--color-background-secondary-light);
+    border: none;
+    border-radius: 8px;
+    font: 600 1.6rem Montserrat;
+    color: var(--color-button-text);
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.team-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.team-main .team-person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 390px;
+
+    background: #FFFFFF;
+    border: 1px solid #E0DEDD;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.team-main .team-person .team-person-img {
+    background-color: #CCCCCC;
+    border-radius: 8px;
+    width: 217px;
+    height: 260px;
+    margin: 30px;
+}
+
+.team-main .team-person h2 {
+    font: 900 2.0rem Montserrat;
+    color: var(--color-font-secondary);
+    line-height: 20px;
+    align-self: flex-start;
+    margin-left: 23.5px;
+}
+
+.team-main .team-person h3 {
+    font: 500 1.4rem Montserrat;
+    color: var(--color-font-secondary-light);
+    line-height: 16px;
+    letter-spacing: 0.583333px;
+    align-self: flex-start;
+    margin-left: 23.5px;
+    margin-top: 10px;
+}
+
+.line-stripes-team {
+    position: absolute;
+    top: 4265px;
+    left: 70px;
+}

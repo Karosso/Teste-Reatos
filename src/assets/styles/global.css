@@ -1,0 +1,55 @@
+:root {
+    font-size: 60%;
+
+    --color-background-primary: #F2F2F2;
+    --color-background-secondary: #0764E3;
+    --color-background-secondary-light: #E8F0FC;
+    --color-background-secondary-dark: #1929FD;
+
+    --color-font-primary: #FFFFFF;
+    --color-font-primary-dark: #CAC8C7;
+    --color-font-secondary: #1A1A1A;
+    --color-font-secondary-dark: #464655;
+    --color-font-secondary-light: #595959;
+    --color-font-secondary-lighter: #E0DEDD;
+    --color-font-tertiary: #0764E3;
+
+    --color-button-primary: #E8F0FC;
+    --color-button-text: #0764E3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+    width: 100vw;
+    /* max-width: 1350px; */
+    margin: auto;
+}
+
+body {
+    background: var(--color-background-primary);
+}
+
+#root {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 400 1.6rem Montserrat;
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62,5%;
+    }
+}

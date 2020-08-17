@@ -1,0 +1,58 @@
+#header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1350px;
+    height: 120px;
+    background-color: var(--color-background-secondary-dark);
+}
+
+.logo {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.logo h1 {
+    font: 900 2.4rem Montserrat;
+    color: var(--color-font-primary);
+    letter-spacing: 0.75px;
+}
+
+.buttons {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+}
+
+.buttons a {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.buttons a h5 {
+    font: 600 1.4rem Montserrat;
+    color: var(--color-font-primary);
+    letter-spacing: 1px;
+    line-height: 2.0rem;
+}
+
+.buttons a p {
+    font: 600 4.0rem Montserrat;
+    color: #E0DEDD;
+    margin-top: -25px;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.buttons .active p {
+    color: var(--color-font-primary);
+    opacity: unset;
+}

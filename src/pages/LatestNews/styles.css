@@ -1,0 +1,146 @@
+#latest-news {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 100%;
+    min-width: 1350px;
+    height: 665px;
+    padding: 0 70px;
+}
+
+#latest-news h1 {
+    font: 900 2.8rem Montserrat;
+    color: var(--color-font-secondary);
+    letter-spacing: 0.7px;
+    line-height: 40px;
+}
+
+.latest-news-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.latest-news-header p {
+    width: 80%;
+    margin-top: 30px;
+    font: 500 2.8rem Lato;
+    color: var(--color-font-secondary-light);
+    letter-spacing: 0.3125px;
+    line-height: 32px;
+}
+
+.latest-news-header button {
+    width: 122px;
+    height: 48px;
+    background: var(--color-background-secondary-light);
+    border: none;
+    border-radius: 8px;
+    font: 600 1.6rem Montserrat;
+    color: var(--color-button-text);
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.latest-news-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.latest-news-main .latest-news-person {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 554px;
+    height: 618px;
+
+    background: #FFFFFF;
+    border: 1px solid #E0DEDD;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.latest-news-main .latest-news-person h2 {
+    width: 450px;
+    font: 900 2.4rem Montserrat;
+    color: var(--color-font-secondary);
+    line-height: 34px;
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 23.5px;
+    letter-spacing: 0.5px;
+}
+
+.latest-news-main .latest-news-person .latest-news-person-img {
+    background-color: #CCCCCC;
+    border-radius: 8px;
+    width: 550px;
+    height: 420px;
+    margin: 0 30px 30px;
+}
+
+.latest-news-main .latest-news-person .latest-news-schedule {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.latest-news-main .latest-news-person .latest-news-schedule .schedule-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.latest-news-main .latest-news-person .latest-news-schedule .schedule-info img {
+    width: 11px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.latest-news-main .latest-news-person .latest-news-schedule .schedule-info h5 {
+    font: 500 1.4rem Montserrat;
+    color: var(--color-font-secondary-light);
+    line-height: 16px;
+    letter-spacing: 0.583333px;
+    align-self: flex-start;
+}
+
+.latest-news-main .latest-news-person .latest-news-person-footer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.latest-news-main .latest-news-person .latest-news-person-footer .footer-city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.latest-news-main .latest-news-person .latest-news-person-footer .footer-city img{
+    width: 15px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.latest-news-main .latest-news-person .latest-news-person-footer h5{
+    font: 500 1.4rem Montserrat;
+    color: var(--color-background-secondary);
+    line-height: 16px;
+    letter-spacing: 0.583333px;   
+}
+
+

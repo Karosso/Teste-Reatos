@@ -1,0 +1,180 @@
+#price-plans {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    width: 100%;
+    height: 965px;
+    min-width: 1350px;
+    padding: 0 70px;
+    margin-top: 100px;
+}
+
+.price-plans-title {
+    font: 900 2.8rem Montserrat;
+    color: var(--color-font-secondary);
+    letter-spacing: 0.7px;
+    line-height: 40px;
+}
+
+.price-plans-subtitle {
+    width: 750px;
+    margin-top: 30px;
+    font: 500 2.0rem Lato;
+    color: var(--color-font-secondary-light);
+    letter-spacing: 0.3125px;
+    line-height: 32px;
+}
+
+.small-polygon-icon {
+    position: absolute;
+    top: 4415px;
+    left: 1175px;
+    z-index: 1;
+}
+
+.medium-polygon-icon {
+    position: absolute;
+    top: 4350px;
+    left: 1200px;
+    z-index: 1;
+}
+
+.large-polygon-icon {
+    position: absolute;
+    top: 4350px;
+    left: 1050px;
+}
+
+.price-plans-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.price-plans-cards .card {
+    background-color: var(--color-font-primary);
+    border: 1px solid var(--color-font-secondary-lighter);
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0px 0px 24px var(--color-font-secondary-lighter);
+    width: 360px;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.price-plans-cards .card .card-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 193px;
+    padding: 30px;
+    border-bottom: 1px solid var(--color-font-secondary-lighter);
+}
+
+.price-plans-cards .card .card-header h5{
+    font: 500 1.4rem Montserrat;
+    color: var(--color-font-secondary-light);
+    letter-spacing: 0.583333px;
+    line-height: 16px;
+    height: 30%;
+}
+
+.price-plans-cards .card .card-header h1{
+    font: 900 3.6rem Montserrat;
+    color: var(--color-font-secondary);
+    letter-spacing: 1.5px;
+    line-height: 50px;
+    height: 33%;
+}
+
+.price-plans-cards .card .card-header h4{
+    font: 500 1.6rem Lato;
+    color: var(--color-font-secondary-light);
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    height: 33%;
+    margin-top: 18px;
+}
+
+.price-plans-cards .card .card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: auto;
+    /* margin-top: 20px; */
+    margin-left: 30px;
+    height: 341px;
+}
+
+.price-plans-cards .card .card-main .card-main-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-plans-cards .card .card-main .card-main-item h4 {
+    margin-left: 20px;
+    font: 500 1.6rem Lato;
+    color: var(--color-font-secondary-light);
+    letter-spacing: 0.25px;
+    line-height: 26px;
+}
+
+.price-plans-cards .card .card-main .card-main-item .card-main-item-unchecked {
+    font: 500 1.6rem Lato;
+    color: rgba(89, 89, 89, 0.5);
+    letter-spacing: 0.25px;
+    line-height: 26px;
+}
+
+.price-plans-cards .card .card-main button {
+    width: 122px;
+    height: 48px;
+    background: var(--color-font-primary);
+    border: 2px solid var(--color-button-primary);
+    border-radius: 8px;
+    box-sizing: content-box;
+
+    font: 600 1.6rem Montserrat;
+    color: var(--color-font-tertiary);
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.price-plans-cards .card .card-main .card-main-item .card-main-item-x {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#price-plans .price-retangles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 75px;
+}
+
+#price-plans .price-retangles .retangle {
+    background-image: url(../../assets//images/retangle-background.png);
+    width: 140px;
+    height: 40px;
+}
+
+
+.line-stripes-price-plans {
+    position: absolute;
+    top: 5300px;
+    left: 70px;
+}

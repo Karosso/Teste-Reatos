@@ -1,0 +1,67 @@
+#brand-visibility {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 100%;
+    min-width: 1350px;
+    height: 665px;
+    padding: 0 70px;
+}
+
+#brand-visibility .brand-visibility-content h1 {
+    font: 900 2.8rem Montserrat;
+    color: var(--color-font-secondary);
+    letter-spacing: 0.7px;
+    line-height: 40px;
+}
+
+#brand-visibility .brand-visibility-content {
+    max-width: 500px;
+    height: 597px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#brand-visibility .brand-visibility-content .brand-visibility-content-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#brand-visibility .brand-visibility-content .brand-visibility-content-items img {
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+#brand-visibility .brand-visibility-content .brand-item-text h1 {
+    font: 900 2.4rem Montserrat;
+    color: var(--color-font-secondary);
+    letter-spacing: 0.5px;
+    line-height: 34px;
+}
+
+#brand-visibility .brand-visibility-content .brand-item-text p {
+    font: 900 1.6rem Lato;
+    color: var(--color-font-secondary-light);
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    width: 350px;
+}
+
+#brand-visibility .brand-visibility-image {
+    width: 705px;
+    height: 597px;
+    margin-top: 75px;
+}
+
+.line-stripes-brand {
+    position: absolute;
+    top: 6000px;
+    left: 70px;
+}
