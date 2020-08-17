@@ -23,17 +23,41 @@ function Subscribe() {
                     <div className="footer-content-item">
                         <h1>Contacts</h1>
                         <h4>New Elsiebury 634 Halvorson Estates Suite 039</h4>
-                        <h2>phone</h2>
-                        <h1>8 800 888 80 80</h1>
-                        <h2>skype</h2>
-                        <h1>mynx.skype</h1>
+                        <div className="contacts-data">
+                            <h2>phone</h2>
+                            <h1>8 800 888 80 80</h1>
+                        </div>
+
+                        <div className="contacts-data">
+                            <h2>skype</h2>
+                            <h1>mynx.skype</h1>
+                        </div>
+                        <div className="contacts-data">
+                            <button>Contact us</button>
+                            <button>Visit us</button>
+                        </div>
                     </div>
 
                     <div className="footer-content-item">
                         <h1>Popular categories</h1>
-                        <h2>caret-right</h2>
-                        <h2>caret-right</h2>
-                        <h2>caret-right</h2>
+                        <div className="popular-categories">
+                            <div className="popular-categories-categories">
+                                <h2>caret-right</h2>
+                                <h2>caret-right</h2>
+                                <h2>caret-right</h2>
+                                <h2>caret-right</h2>
+                                <h2>caret-right</h2>
+                                <h2>caret-right</h2>
+                            </div>
+                            <div className="popular-categories-categories">
+                                <h2>caret-right</h2>
+                                <h2>caret-right</h2>
+                                <h2>caret-right</h2>
+                                <h2>caret-right</h2>
+                                <h2>caret-right</h2>
+                                <h2>caret-right</h2>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="footer-content-item">

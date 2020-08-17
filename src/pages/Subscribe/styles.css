@@ -74,17 +74,75 @@
 .subscribe-footer .footer-content {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: flex-start;
 }
 
 .subscribe-footer .footer-content .footer-content-item {
     width: 100%;
+    height: 300px;
     margin-top: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 150px;
+}
 
+.contacts-data {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    justify-content: inherit;
+    width: 100%;
+}
+
+.popular-categories {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
+.subscribe-footer .footer-content .footer-content-item h1 {
+    font: 900 2.0rem Montserrat;
+    color: var(--color-font-secondary);
+    /* letter-spacing: 0.75px; */
+    line-height: 28px;
+    /* margin-right: 30px; */
+}
+
+.subscribe-footer .footer-content .footer-content-item h4 {
+    font: 500 1.6rem Lato;
+    color: var(--color-font-secondary-light);
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    /* margin-right: 30px; */
+}
+
+.subscribe-footer .footer-content .footer-content-item h2 {
+    font: 700 2.0rem Monteserrat;
+    color: var(--color-font-tertiary);
+    /* letter-spacing: 0.25px; */
+    line-height: 23px;
+    /* margin-right: 30px; */
+}
+
+.subscribe-footer .footer-content .footer-content-item button {
+    width: 122px;
+    height: 48px;
+    background: var(--color-background-secondary-light);
+    border: none;
+    border-radius: 8px;
+    font: 600 1.6rem Montserrat;
+    color: var(--color-button-text);
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    cursor: pointer;
 }
 
 .footer-logo {
