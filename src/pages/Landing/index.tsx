@@ -9,6 +9,7 @@ import Team from '../Team';
 import PricePlans from '../PricePlans';
 import BrandVisibility from '../BrandVisibility';
 import LatestNews from '../LatestNews';
+import Subscribe from '../Subscribe';
 
 import './styles.css'
 
@@ -23,6 +24,7 @@ function Landing() {
             <PricePlans/>
             <BrandVisibility/>
             <LatestNews/>
+            <Subscribe/>
         </div>
     )
 }
